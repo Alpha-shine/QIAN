@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Girly mode */
+:root {
+  --bg-color: #fbcfe8; /* bg-pink-200 */
+  --text-color: #ff69b4; /* text color */
+  --heading-color: #f472b6; /* text-pink-400 */
+  --white-touch: #f9fafb; /* bg-gray-50 */
+  --border-color: #fce7f3; /* border-pink-100 */
+  --black-touch: #000000; /* heading color */
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --dark-bg-color: #1a1a1a; /* Deep gray background */
+    --dark-text-color: #f5f5f5; /* Light text for readability */
+    --dark-heading-color: #ff8fb1; /* Soft pink for a girly accent */
+
+    --dark-input-text-color: #f5f5f5; /* White text inside input fields */
+    --dark-input-bg-color: #2a2a2a; /* Slightly lighter than background for contrast */
+
+    --dark-button-bg-color: #ff69b4; /* Pink button for focus/energy */
+    --dark-button-text-color: #ffffff; /* White text for clarity */
+  }
+}
